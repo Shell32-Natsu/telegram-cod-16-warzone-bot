@@ -17,15 +17,16 @@ parser.add_argument("--config", {
   required: true,
 });
 
-function auth(id: string | undefined, adminId: string): boolean {
-  return id === adminId;
+function auth(id: string | undefined, adminId: string[]): boolean {
+  if (id === undefined) return false;
+  return adminId.indexOf(id) !== -1;
 }
 
 type Config = {
   BOT_TOKEN: string;
   ACTIVISION_PASSWORD: string;
   ACTIVISION_EMAIL: string;
-  ADMIN_ID: string;
+  ADMIN_ID: string[];
 };
 
 function getConfig(path: string): Config {

@@ -7,7 +7,7 @@ Prepare your `config.json` file
   "BOT_TOKEN": "xxx:xxx",
   "ACTIVISION_PASSWORD": "xx",
   "ACTIVISION_EMAIL": "xx@xxx.com",
-  "ADMIN_ID": "xxxx"
+  "ADMIN_ID": ["xxxx"]
 }
 
 ```
