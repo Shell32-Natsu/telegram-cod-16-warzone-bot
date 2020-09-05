@@ -93,7 +93,7 @@ Team wiped: ${data.weekly.mode.br_all.properties.objectiveTeamWiped}
 Headshots: ${data.weekly.mode.br_all.properties.headshots}
 Headshot percentage: ${data.weekly.mode.br_all.properties.headshotPercentage}
 Kills per game: ${data.weekly.mode.br_all.properties.killsPerGame}
-Damage down: ${data.weekly.mode.br_all.properties.damageDone}
+Damage done: ${data.weekly.mode.br_all.properties.damageDone}
 Damage taken: ${data.weekly.mode.br_all.properties.damageTaken}
 \`\`\`
 `;
