@@ -87,8 +87,8 @@ Last week
 Kills: ${data.weekly.mode.br_all.properties.kills}
 Deaths: ${data.weekly.mode.br_all.properties.deaths}
 K/D: ${data.weekly.mode.br_all.properties.kdRatio}
-Glug deaths: ${data.weekly.mode.br_all.properties.gulagDeaths}
-Glug kills: ${data.weekly.mode.br_all.properties.gulagKills}
+Gulag deaths: ${data.weekly.mode.br_all.properties.gulagDeaths}
+Gulag kills: ${data.weekly.mode.br_all.properties.gulagKills}
 Team wiped: ${data.weekly.mode.br_all.properties.objectiveTeamWiped}
 Headshots: ${data.weekly.mode.br_all.properties.headshots}
 Headshot percentage: ${data.weekly.mode.br_all.properties.headshotPercentage}
