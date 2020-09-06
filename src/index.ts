@@ -64,19 +64,19 @@ async function main() {
   const config = getConfig(args.config);
   const TOKEN = config.BOT_TOKEN;
 
-  if (TOKEN === undefined) {
-    console.error("No bot token provided");
-    exit();
-  }
-
-  const bot = new TelegramBot(TOKEN, { polling: true });
-
   await login(config.ACTIVISION_EMAIL, config.ACTIVISION_PASSWORD);
 
   if (args.local === "true") {
     await localMain();
     return;
   }
+
+  if (TOKEN === undefined) {
+    console.error("No bot token provided");
+    exit();
+  }
+
+  const bot = new TelegramBot(TOKEN, { polling: true });
 
   // query a user information
   bot.on(
